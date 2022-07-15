@@ -1,0 +1,14 @@
+
+.btn-1 {
+  padding: 12px 20px;
+  background-color: #956ce2;
+  border: none;
+}
+
+.btn-1:hover{
+  background-color: #6c2be4;;
+}
+
+.btn-1:focus{
+  background-color: #4405b9;;
+}
