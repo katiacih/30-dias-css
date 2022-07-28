@@ -147,3 +147,15 @@ body {
   min-height: 100px;
   background-color: rgb(221, 209, 209);
 }
+
+
+/* material style */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
