@@ -96,7 +96,7 @@ body {
   height: 32px;
   width: 32px;
 }
-.cont-logo h1 {
+.cont-logo:first-child h1 {
   font-size: 1.7em;
 	color: #fff;
 	font-family: 'Martel Sans', sans-serif;
@@ -131,7 +131,7 @@ body {
   margin: 0px 100px;
 }
 
-.content-desafio h2 {
+.content-desafio-h2 {
   color: rgb(35, 117, 138);
   font-weight: bold;
 	font-family: 'Martel Sans', sans-serif;
