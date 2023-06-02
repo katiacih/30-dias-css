@@ -14,6 +14,11 @@ body {
   background: #ececec;
 }
 
+a:hover{
+  cursor: pointer;
+  color: rgb(93, 178, 199);
+}
+
 .subtext-blue {
 	font-family: 'Martel Sans', sans-serif;
 	font-weight: 500;
@@ -125,17 +130,16 @@ body {
 /*desafio*/
 
 .content-desafio {
-  min-height: 100px;
   padding: 30px;
-  border: 1px solid rgb(56, 153, 137);
-  margin: 0px 100px;
 }
 
-.content-desafio h2 {
+.content-desafio h1 {
   color: rgb(35, 117, 138);
   font-weight: bold;
 	font-family: 'Martel Sans', sans-serif;
   text-transform: none;
+  text-align: center;
+  margin: 24px 0;
 }
 
 .content-desafio-item {
@@ -144,9 +148,29 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100px;
-  background-color: rgb(221, 209, 209);
 }
 
+
+/* list of challenges */
+
+.ul-challenge {
+  margin: 24px 90px;
+}
+
+.ul-challenge li {
+  display: inline-block;
+	text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125em;
+  width: 100%;
+  padding: 24px 0;
+  border-bottom: 1px solid rgb(35, 117, 138);
+}
+
+.ul-challenge li:first-child {
+  border-top: 1px solid rgb(35, 117, 138);
+}
 
 /* material style */
 
