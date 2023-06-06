@@ -12,6 +12,8 @@ color-buttons: #f1936f
 
 body {
   background: #ececec;
+  font-family: 'Martel Sans', Arial,  sans-serif;
+  position: relative;
 }
 
 a:hover{
@@ -20,7 +22,7 @@ a:hover{
 }
 
 .subtext-blue {
-	font-family: 'Martel Sans', sans-serif;
+	
 	font-weight: 500;
 	font-size: 1.125em;
 	text-align: center;
@@ -172,6 +174,23 @@ a:hover{
   border-top: 1px solid rgb(35, 117, 138);
 }
 
+/* FOOTER */
+
+footer {
+  background: #216c83;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer span {
+  color: #ececec;
+}
 /* material style */
 
 /* .material-symbols-outlined {
@@ -182,3 +201,30 @@ a:hover{
   'opsz' 48
 }
  */
+
+
+    /* Note: Design for a width of 480px */
+
+ @media only screen and (min-width: 480px) and (max-width: 797px) {
+  .content-desafio {
+    padding: 0px;
+  }
+  
+  .ul-challenge {
+    margin: 24px 8px;
+  }
+    
+}
+
+/*----*****---- << Mobile >> ----*****----*/	
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  .content-desafio {
+    padding: 0px;
+  }
+  .ul-challenge {
+    margin: 24px 8px;
+  }
+  
+}
