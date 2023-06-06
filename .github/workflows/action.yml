@@ -14,3 +14,4 @@ jobs:
           directory: ./
           enforce_https: false
           check_html: true
+          check_favicon: false
