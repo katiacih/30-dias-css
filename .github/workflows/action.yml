@@ -11,6 +11,6 @@ jobs:
 
       - uses: anishathalye/proof-html@v2
         with:
-          directory: ./_site
+          directory: ./
           enforce_https: false
           check_html: true
