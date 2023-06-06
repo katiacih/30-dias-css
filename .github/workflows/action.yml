@@ -15,3 +15,6 @@ jobs:
           enforce_https: false
           check_html: true
           check_favicon: false
+          ignore_url: |
+            https://fonts.googleapis.com/css?family=Martel+Sans&display=swap
+            https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200
