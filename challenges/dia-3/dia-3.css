@@ -1,0 +1,78 @@
+
+.toggle-content-hide input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+}
+
+.toggle-content-hide input[type="checkbox"] :focus {
+  outline: 0
+}
+
+.toggle-content-hide {
+  display: flex;
+  align-items: center;
+  border: 1px solid #f1edf1;
+  border-radius: 25px;
+  padding: 4px 10px;
+  background-color: #f1edf1;
+  box-shadow: 0px 3px 8px #938c8c;
+}
+
+.toggle-content-hide label {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.toggle {
+  height: 32px;
+  width: 52px;
+  border-radius: 16px;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  border: 2px solid var(--text-color-white-light);
+  transition: all .2s ease;
+}
+
+/* button */
+.toggle:after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #24a59a;
+  box-shadow: 0 1px 2px rgba(44,44,44,.2);
+  transition: all .2s cubic-bezier(.5,.1,.75,1.35);
+}
+
+.toggle:checked {
+  border-color: #fff;
+}
+
+/*  create moviment */
+.toggle:checked:after {
+  transform: translatex(20px);
+}
+
+.moon {
+  color: #393535;
+}
+
+.sun {
+  color: #aeb11e;
+}
+
+.icon-content {
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+.icon-content:first-of-type {
+  margin-right: 8px;
+}
