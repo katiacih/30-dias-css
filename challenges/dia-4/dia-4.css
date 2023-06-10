@@ -1,0 +1,31 @@
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-icon:hover {
+  cursor: pointer;
+}
+
+
+.line-1, .line-2, .line-3 {
+  width: 35px;
+  height: 6px;
+  background-color: rgb(0, 0, 0);
+  margin: 3px 0;
+  border-radius: 5px;
+  transition: all 0.4s; 
+}
+
+.change .line-1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.change .line-2 {
+  transform: rotate(45deg) translate(1px, 0px);
+}
+
+.change .line-3 {
+  transform: rotate(45deg) translate(-9px, -8px);
+}
