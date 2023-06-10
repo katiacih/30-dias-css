@@ -94,16 +94,8 @@ a:hover{
 	text-align: right;
 }
 
-.cont-logo  {
-  	display: flex;
-    align-items: center;
-    margin: 30px;
-}
-.cont-logo img {
-  height: 32px;
-  width: 32px;
-}
-.cont-logo h1 {
+.title-page {
+  margin-left: 16px;
   font-size: 1.7em;
 	color: #fff;
 	font-family: 'Martel Sans', sans-serif;
