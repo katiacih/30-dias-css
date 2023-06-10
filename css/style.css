@@ -94,8 +94,11 @@ a:hover{
 	text-align: right;
 }
 
+.title-page-container {
+  padding: 16px;
+}
+
 .title-page {
-  margin-left: 16px;
   font-size: 1.7em;
 	color: #fff;
 	font-family: 'Martel Sans', sans-serif;
